@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="form_padding">
+            <div class="container">
+                <h2 class="form_header">Form Valiadator</h2>
+                <form action="success.html" id="form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>First Name</label>
+                            <input type="text" class="form-control" name="First_Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" name="Last_Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Type Your Number</label>
+                            <input type="tel" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Time</label>
+                            <input type="time" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>Type Your Email</label>
+                            <input type="email" class="form-control" name="Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Type Your Password</label>
+                            <input type="password" class="form-control" name="Password">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Conform Password</label>
+                            <input type="password" class="form-control" name="confirm_password" id="conform_password">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>Message</label>
+                            <textarea name="Message" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                        <input type="reset" value="Reset" class="btn btn-danger">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.validate.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

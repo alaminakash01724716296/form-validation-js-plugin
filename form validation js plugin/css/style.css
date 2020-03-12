@@ -1,0 +1,16 @@
+.form_padding {
+    padding: 80px 0;
+    background: turquoise;
+}
+
+h2.form_header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input {
+    margin-bottom: 15px;
+}
+.error {
+    color: red;
+    font-size: 20px
+}
